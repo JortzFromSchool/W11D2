@@ -6,13 +6,15 @@ const initialState = {
       id: 3,
       title: "wash car",
       body: "with soap",
-      done: false
+      done: false,
+      steps: [],
     },
     4: {
       id: 4,
       title: "wash dog",
       body: "with shampoo",
-      done: true
+      done: true,
+      steps: [],
     }
   };
 
@@ -28,7 +30,7 @@ const todosReducer = (state = initialState, action) => {
             action.todos.forEach((todo) => {
                 todos[todo.id] = todo;
             });
-            return todos;
+            return todos; // replace everything here, not merge
         case REMOVE_TODO:
             delete nextState[action.todo.id];
             return nextState;
