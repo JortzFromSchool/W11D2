@@ -9,7 +9,7 @@ const mapStateToProps = (state) => {
 };
 
 const mapDispatchToProps = (dispatch) => ({
-    recieveTodo: todo => dispatch(recieveTodo(todo))
+    receiveTodo: todo => dispatch(receiveTodo(todo))
 });
 
 const container = connect(mapStateToProps, mapDispatchToProps);
