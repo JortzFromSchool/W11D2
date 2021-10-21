@@ -1,5 +1,7 @@
 //house your action creators and action type constants
 
+import * as APIUtil from "../util/todo_api_utils"
+
 export const RECEIVE_TODOS = "RECEIVE_TODOS";
 export const RECEIVE_TODO = "RECEIVE_TODO";
 export const REMOVE_TODO = "REMOVE_TODO";
@@ -25,3 +27,12 @@ export const receiveTodo = (todo) => {
          todo
      };
  };
+
+ export const fetchTodos = () => {
+     return function (dispatch) {
+        APIUtil.fetchTodos()
+        .then((todos) => {
+            return dispatch(receiveTodos(todos));
+        });
+     };
+ }
