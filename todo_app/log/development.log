@@ -544,3 +544,290 @@ Processing by Api::TodosController#index as JSON
 Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.4ms)
 
 
+Started GET "/" for ::1 at 2021-10-21 16:09:41 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 342ms (Views: 341.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-10-21 16:09:56 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 360ms (Views: 359.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-10-21 16:10:36 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 34ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-10-21 16:12:40 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 313ms (Views: 312.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/todos" for ::1 at 2021-10-21 16:12:41 -0400
+Processing by Api::TodosController#index as JSON
+  [1m[36mTodo Load (0.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/api/todos_controller.rb:18
+Completed 200 OK in 4ms (Views: 2.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2021-10-21 16:14:07 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 330ms (Views: 330.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-10-21 16:22:25 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 328ms (Views: 327.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/todos" for ::1 at 2021-10-21 16:22:26 -0400
+Processing by Api::TodosController#index as JSON
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/api/todos_controller.rb:18
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2021-10-21 16:23:47 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 23ms (Views: 23.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-10-21 16:24:11 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 331ms (Views: 330.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/todos" for ::1 at 2021-10-21 16:24:12 -0400
+Processing by Api::TodosController#index as JSON
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/api/todos_controller.rb:18
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2021-10-21 16:24:35 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 29ms (Views: 29.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/todos" for ::1 at 2021-10-21 16:24:35 -0400
+Processing by Api::TodosController#index as JSON
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/api/todos_controller.rb:18
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2021-10-21 16:25:33 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 380ms (Views: 380.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-10-21 16:27:09 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 387ms (Views: 386.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/todos" for ::1 at 2021-10-21 16:27:14 -0400
+Processing by Api::TodosController#index as JSON
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/api/todos_controller.rb:18
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2021-10-21 16:45:16 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 331ms (Views: 330.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-10-21 16:45:30 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 322ms (Views: 322.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/todos" for ::1 at 2021-10-21 16:45:31 -0400
+Processing by Api::TodosController#index as JSON
+  [1m[36mTodo Load (0.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/api/todos_controller.rb:18
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/todos" for ::1 at 2021-10-21 16:45:31 -0400
+Processing by Api::TodosController#index as JSON
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/api/todos_controller.rb:18
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/api/todos" for ::1 at 2021-10-21 16:45:43 -0400
+Processing by Api::TodosController#create as JSON
+  Parameters: {"todo"=>{"id"=>"1634849131373", "title"=>"Wash hands", "body"=>"20 seconds", "done"=>"false"}}
+Unpermitted parameter: :id
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/todos_controller.rb:9
+  [1m[36mTodo Create (2.2ms)[0m  [1m[32mINSERT INTO "todos" ("title", "body", "done", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "Wash hands"], ["body", "20 seconds"], ["done", false], ["created_at", "2021-10-21 20:45:43.021998"], ["updated_at", "2021-10-21 20:45:43.021998"]]
+  ↳ app/controllers/api/todos_controller.rb:9
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/todos_controller.rb:9
+Completed 200 OK in 10ms (Views: 0.7ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/" for ::1 at 2021-10-21 16:47:07 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 319ms (Views: 318.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/todos" for ::1 at 2021-10-21 16:47:07 -0400
+Processing by Api::TodosController#index as JSON
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/api/todos_controller.rb:18
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/api/todos" for ::1 at 2021-10-21 16:47:44 -0400
+Processing by Api::TodosController#create as JSON
+  Parameters: {"todo"=>{"id"=>"1634849227772", "title"=>"adwfawed", "body"=>"awdawd", "done"=>"false"}}
+Unpermitted parameter: :id
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/todos_controller.rb:9
+  [1m[36mTodo Create (0.3ms)[0m  [1m[32mINSERT INTO "todos" ("title", "body", "done", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "adwfawed"], ["body", "awdawd"], ["done", false], ["created_at", "2021-10-21 20:47:44.884694"], ["updated_at", "2021-10-21 20:47:44.884694"]]
+  ↳ app/controllers/api/todos_controller.rb:9
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/todos_controller.rb:9
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for ::1 at 2021-10-21 16:51:30 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 315ms (Views: 314.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/todos" for ::1 at 2021-10-21 16:51:30 -0400
+Processing by Api::TodosController#create as JSON
+  Parameters: {"todo"=>{"id"=>"1634849227772", "title"=>"adwfawed", "body"=>"awdawd", "done"=>"false"}}
+Unpermitted parameter: :id
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/todos_controller.rb:9
+  [1m[36mTodo Create (0.5ms)[0m  [1m[32mINSERT INTO "todos" ("title", "body", "done", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "adwfawed"], ["body", "awdawd"], ["done", false], ["created_at", "2021-10-21 20:51:30.444076"], ["updated_at", "2021-10-21 20:51:30.444076"]]
+  ↳ app/controllers/api/todos_controller.rb:9
+  [1m[35m (14.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/todos_controller.rb:9
+Completed 200 OK in 20ms (Views: 0.5ms | ActiveRecord: 15.4ms)
+
+
+Started GET "/api/todos" for ::1 at 2021-10-21 16:51:30 -0400
+Processing by Api::TodosController#index as JSON
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/api/todos_controller.rb:18
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/api/todos" for ::1 at 2021-10-21 16:51:46 -0400
+Processing by Api::TodosController#create as JSON
+  Parameters: {"todo"=>{"id"=>"1634849490781", "title"=>"adfag", "body"=>"fgafdae", "done"=>"false"}}
+Unpermitted parameter: :id
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/todos_controller.rb:9
+  [1m[36mTodo Create (0.6ms)[0m  [1m[32mINSERT INTO "todos" ("title", "body", "done", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "adfag"], ["body", "fgafdae"], ["done", false], ["created_at", "2021-10-21 20:51:46.363126"], ["updated_at", "2021-10-21 20:51:46.363126"]]
+  ↳ app/controllers/api/todos_controller.rb:9
+  [1m[35m (3.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/todos_controller.rb:9
+Completed 200 OK in 8ms (Views: 0.4ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/" for ::1 at 2021-10-21 16:52:39 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 21ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/todos" for ::1 at 2021-10-21 16:52:39 -0400
+Processing by Api::TodosController#index as JSON
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/api/todos_controller.rb:18
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/api/todos" for ::1 at 2021-10-21 16:53:01 -0400
+Processing by Api::TodosController#create as JSON
+  Parameters: {"todo"=>{"id"=>"1634849559540", "title"=>"ffgg", "body"=>"hdtgs", "done"=>"false"}}
+Unpermitted parameter: :id
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/todos_controller.rb:9
+  [1m[36mTodo Create (0.4ms)[0m  [1m[32mINSERT INTO "todos" ("title", "body", "done", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "ffgg"], ["body", "hdtgs"], ["done", false], ["created_at", "2021-10-21 20:53:01.336719"], ["updated_at", "2021-10-21 20:53:01.336719"]]
+  ↳ app/controllers/api/todos_controller.rb:9
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/todos_controller.rb:9
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for ::1 at 2021-10-21 16:54:19 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 323ms (Views: 322.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/todos" for ::1 at 2021-10-21 16:54:20 -0400
+Processing by Api::TodosController#create as JSON
+  Parameters: {"todo"=>{"id"=>"1634849559540", "title"=>"ffgg", "body"=>"hdtgs", "done"=>"false"}}
+Unpermitted parameter: :id
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/todos_controller.rb:9
+  [1m[36mTodo Create (2.9ms)[0m  [1m[32mINSERT INTO "todos" ("title", "body", "done", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "ffgg"], ["body", "hdtgs"], ["done", false], ["created_at", "2021-10-21 20:54:20.129611"], ["updated_at", "2021-10-21 20:54:20.129611"]]
+  ↳ app/controllers/api/todos_controller.rb:9
+  [1m[35m (2.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/todos_controller.rb:9
+Completed 200 OK in 14ms (Views: 0.4ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/api/todos" for ::1 at 2021-10-21 16:54:20 -0400
+Processing by Api::TodosController#index as JSON
+  [1m[36mTodo Load (1.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/api/todos_controller.rb:18
+Completed 200 OK in 8ms (Views: 6.3ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/api/todos" for ::1 at 2021-10-21 16:54:27 -0400
+Processing by Api::TodosController#create as JSON
+  Parameters: {"todo"=>{"id"=>"1634849660388", "title"=>"awdawd", "body"=>"fsrgsg", "done"=>"false"}}
+Unpermitted parameter: :id
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/todos_controller.rb:9
+  [1m[36mTodo Create (1.1ms)[0m  [1m[32mINSERT INTO "todos" ("title", "body", "done", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "awdawd"], ["body", "fsrgsg"], ["done", false], ["created_at", "2021-10-21 20:54:27.399783"], ["updated_at", "2021-10-21 20:54:27.399783"]]
+  ↳ app/controllers/api/todos_controller.rb:9
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/todos_controller.rb:9
+Completed 200 OK in 18ms (Views: 0.5ms | ActiveRecord: 2.5ms)
+
+

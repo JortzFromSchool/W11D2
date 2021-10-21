@@ -12,18 +12,19 @@ import { allTodos } from './reducers/selectors';
 
 
 document.addEventListener("DOMContentLoaded", () => {
+    
     const content = document.getElementById("root");
     const store = configureStore();
     window.store = store;
     ReactDOM.render(< Root store={store}/>, content);
-
     
-    window.receiveTodo = receiveTodo;
-    window.receiveTodos = receiveTodos;
-    window.removeTodo = removeTodo;
-    window.receiveSteps = receiveSteps;
-    window.receiveStep = receiveStep;
-    window.removeStep = removeStep;
-    window.allTodos = allTodos;
-    window.fetchTodos = fetchTodos;
+    // window.receiveTodo = receiveTodo;
+    // window.receiveTodos = receiveTodos;
+    // window.removeTodo = removeTodo;
+    // window.receiveSteps = receiveSteps;
+    // window.receiveStep = receiveStep;
+    // window.removeStep = removeStep;
+    // window.allTodos = allTodos;
+    // window.fetchTodos = fetchTodos;
+    
 });

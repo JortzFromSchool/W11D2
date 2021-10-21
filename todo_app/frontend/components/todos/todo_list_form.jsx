@@ -39,13 +39,10 @@ export default class TodoListForm extends React.Component {
 
     handleSubmit(e) {
         e.preventDefault();
-        this.props.receiveTodo(this.state);
-        this.setState({
-            id: uniqueId(),
-            title: "",
-            body: "",
-            done: false,
-        });
+        debugger
+        this.props.createTodo(this.state).then(
+            () => this.setState({title: '', body: ''})
+          );
     }
 
 

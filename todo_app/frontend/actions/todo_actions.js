@@ -35,4 +35,13 @@ export const receiveTodo = (todo) => {
             return dispatch(receiveTodos(todos));
         });
      };
- }
+ };
+
+ export const createTodo = (todo) => {
+    return function (dispatch) {
+        return APIUtil.createTodo(todo)
+        .then((todo) => {
+            return dispatch(receiveTodo(todo));
+        });
+    };
+ };
