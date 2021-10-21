@@ -13,7 +13,7 @@ export default class TodoList extends React.Component {
     }
 
     render() {
-        const {todos, removeTodo, receiveTodo, createTodo} = this.props;
+        const {todos, removeTodo, receiveTodo, createTodo, receiveErrors} = this.props;
         
         return(
             <div>
@@ -27,7 +27,7 @@ export default class TodoList extends React.Component {
                         receiveTodo={receiveTodo}
                         />))}
                 </ul>
-                <TodoListForm createTodo={createTodo} />    
+                <TodoListForm receiveErrors={receiveErrors} createTodo={createTodo} />    
             </div>)
     }
 };

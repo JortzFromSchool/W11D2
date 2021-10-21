@@ -41,7 +41,8 @@ export default class TodoListForm extends React.Component {
         e.preventDefault();
         debugger
         this.props.createTodo(this.state).then(
-            () => this.setState({title: '', body: ''})
+            () => this.setState({title: '', body: ''}),
+            (err) => this.props.receiveErrors(err)
           );
     }
 

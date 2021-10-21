@@ -40,8 +40,9 @@ export const receiveTodo = (todo) => {
  export const createTodo = (todo) => {
     return function (dispatch) {
         return APIUtil.createTodo(todo)
-        .then((todo) => {
-            return dispatch(receiveTodo(todo));
-        });
+        .then(
+            todo => dispatch(receiveTodo(todo)),
+            err => dispatch(receiveErrors(err.responseJSON))
+        );
     };
  };
